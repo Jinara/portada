@@ -1,10 +1,16 @@
+@font-face {
+    font-family: titles-font;
+    src: url(./titles-font.otf)  format("opentype");
+}
 .super-title {
   text-align: center;
   font-size: 500%;
   margin: 8%;
+  margin-bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-style: italic;
 }
 
 .hash {
@@ -28,12 +34,31 @@
 }
 
 .principal-text {
-  h1 {
-    text-align: center;
-  }
-
-  p {
-    text-align: justify;
-  }
   width: 30%;
 }
+
+h1.principal-text {
+  text-align: center;
+}
+
+p.principal-text {
+  text-align: justify;
+}
+
+.slogan {
+  display: flex;
+  justify-content: flex-end;
+  font-family: titles-font;
+  font-size: 250%;
+  letter-spacing: 3px;
+}
+
+.main-image {
+  position: absolute;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+
