@@ -1,0 +1,39 @@
+.super-title {
+  text-align: center;
+  font-size: 500%;
+  margin: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hash {
+  height: 20%;
+}
+
+.zona-title {
+  color: #140a47;
+  font-weight: 100;
+}
+
+.wiki-title {
+  color: #140a47;
+  font-weight: bold;
+}
+
+.interview-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.principal-text {
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+  width: 30%;
+}
