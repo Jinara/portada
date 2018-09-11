@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-right: 3%;
 }
 
 .principal-text {
@@ -64,11 +65,13 @@ body {
   font-family: titles-font;
   font-size: 250%;
   letter-spacing: 3px;
+  padding-right: 6%;
 }
 
 .main-image {
   position: absolute;
-  height: 95%;
+  height: 90%;
+  width: 70%;
   display: flex;
   justify-content: center;
   z-index: -1;
