@@ -2,6 +2,15 @@
     font-family: titles-font;
     src: url(./titles-font.otf)  format("opentype");
 }
+@font-face {
+    font-family: subtitles-font;
+    src: url(./enagol.ttf)
+}
+
+body {
+  background-image: url("background4.jpeg");
+}
+
 .super-title {
   text-align: center;
   font-size: 500%;
@@ -28,21 +37,25 @@
 }
 
 .interview-section {
+  font-family: subtitles-font;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .principal-text {
   width: 30%;
 }
 
-h1.principal-text {
-  text-align: center;
+.principal-text h3 {
+  display: flex;
+  justify-content: center;
 }
 
-p.principal-text {
+.principal-text p {
   text-align: justify;
+  font-family: cursive;
+  font-style: italic;
 }
 
 .slogan {
@@ -55,7 +68,7 @@ p.principal-text {
 
 .main-image {
   position: absolute;
-  height: 90%;
+  height: 95%;
   display: flex;
   justify-content: center;
   z-index: -1;
