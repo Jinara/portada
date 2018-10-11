@@ -12,7 +12,7 @@
 .full-magazine {
   display: flex;
   justify-content: center;
-  background: #ffffff;
+  background: #fff7fe;
   height: 1220px;
 }
 
@@ -28,7 +28,7 @@
 .super-title {
   text-align: center;
   font-size: 500%;
-  margin: 6%;
+  margin: 3%;
   margin-bottom: 0px;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@
 }
 
 .logo {
-  width: 50%
+  width: 70%
 }
 
 .zona-title {
