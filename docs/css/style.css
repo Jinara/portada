@@ -1,14 +1,31 @@
 @font-face {
     font-family: titles-font;
-    src: url(./titles-font.otf)  format("opentype");
+    src: url(./../fonts/titles-font.otf)  format("opentype");
 }
 @font-face {
     font-family: subtitles-font;
-    src: url(./enagol.ttf)
+    src: url(./../fonts/enagol.ttf)
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
-  background-image: url("background4.jpeg");
+}
+
+.full-magazine {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  height: 100%;
+}
+
+.big-border {
+  height: 1210px;
+  width: 1000px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  position: relative;
+  background-image: url("./../images/background.png");
+  overflow: hidden;
 }
 
 .super-title {
@@ -22,8 +39,8 @@ body {
   font-style: italic;
 }
 
-.hash {
-  height: 20%;
+.logo {
+  width: 50%
 }
 
 .zona-title {
@@ -45,7 +62,7 @@ body {
 }
 
 .principal-text {
-  width: 30%;
+  width: 40%;
 }
 
 .principal-text h3 {
@@ -55,8 +72,7 @@ body {
 
 .principal-text p {
   text-align: justify;
-  font-family: cursive;
-  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .slogan {
@@ -70,11 +86,5 @@ body {
 
 .main-image {
   position: absolute;
-  height: 90%;
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  z-index: -1;
+  left: -90px;
 }
-
-
